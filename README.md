@@ -23,3 +23,12 @@ There are two input arguments for this project: i) the first one is the address 
 ## Dataset:
 Each read being a 50 character-long string of letters A,C,T, or G. -a reference genome consisting of 20 million base-pairs of letters A, C, T, or G.
 An example of Fuzzy matching: An attempt to align the sequences [A C T G C T A] and [A C C T C T C] would be successful if a mismatch threshold of 3 was used, however a 2 character mismatch threshold would not yield a successful alignment.
+
+## Required Libraries:
+1) iostream
+2) fstream
+3) cmath
+4) string
+5) cstdlib
+6) random
+

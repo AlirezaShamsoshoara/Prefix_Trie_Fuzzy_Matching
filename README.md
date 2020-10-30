@@ -17,6 +17,9 @@ In this problem, first, we generate random 36-mers genomic data from the genome 
 ### Problem B-: 
 In this problem,  we generate random 36-mers genomic data from the genome sequence in different number of samples (5000, 50000, 100000) but in this case, we consider 5% error rate per base for each character. And we store all of them in the prefix trie. Next, we use a search function to traverse through the genomic sequence and find all the matches up to 1 mismatch with the random data we saved in the prefix trie.
 
-
 ### Input Arguments: 
 There are two input arguments for this project: i) the first one is the address of the file and ii) the second one chooses the subproblem {A or B}.
+
+## Dataset:
+Each read being a 50 character-long string of letters A,C,T, or G. -a reference genome consisting of 20 million base-pairs of letters A, C, T, or G.
+An example of Fuzzy matching: An attempt to align the sequences [A C T G C T A] and [A C C T C T C] would be successful if a mismatch threshold of 3 was used, however a 2 character mismatch threshold would not yield a successful alignment.

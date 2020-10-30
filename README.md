@@ -1,4 +1,4 @@
-# Prefix_Trie_Fuzzy_Matching
+# Prefix Trie Fuzzy Matching
 Data Structure: Prefix Trie with Fuzzy Matching
 
 
@@ -12,10 +12,11 @@ This project aims to implement a Prefix Trie data structure to read and store ge
 
 
 ### Problem A-:
-In this problem, 
+In this problem, first, we generate random 36-mers genomic data from the genome sequence in different number of samples (5000, 50000, 100000). Nextm we use the search function to traverse the genome and find the match of each sample up to 1 mismatch in the whole sequence of genome and we print out the number of matches.
 
-
-### Problem B-:
+### Problem B-: 
+In this problem,  we generate random 36-mers genomic data from the genome sequence in different number of samples (5000, 50000, 100000) but in this case, we consider 5% error rate per base for each character. And we store all of them in the prefix trie. Next, we use a search function to traverse through the genomic sequence and find all the matches up to 1 mismatch with the random data we saved in the prefix trie.
 
 
 ### Input Arguments: 
+There are two input arguments for this project: i) the first one is the address of the file and ii) the second one chooses the subproblem {A or B}.
